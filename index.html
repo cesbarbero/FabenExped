@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./media/Calculator_icon.svg" type="image/x-icon">
+    <title>Cálculo de insumos para ESTURAN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./media/logo tierra grande.png" alt="Logo de FABEN"> <!-- Asegúrate de tener el archivo logo.png en el mismo directorio -->
+        <h2>Cálculo de insumos para ESTURAN</h2>
+        <form id="numberForm">
+            <label for="numberInput">Introduzca la cantidad de pouchs por OP:</label>
+            <input type="number" id="numberInput" required>
+            <button type="submit">Calcular</button>
+        </form>
+
+        <h4>CANTIDADES:</h4>
+        <ul id="results">
+            <!-- Los resultados se mostrarán aquí -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
